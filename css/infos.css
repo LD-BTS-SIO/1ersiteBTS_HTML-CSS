@@ -1,0 +1,112 @@
+body{
+background-color : #b5a789;
+font-family: Georgia; /* police d'écriture */
+color: purple;
+padding-left: 11em;
+}
+
+h1,h3
+{
+	color: blue;
+	text-align: center;
+}
+
+
+
+.horairetitre{
+border: 3px green dashed;
+width: 258px;
+}
+
+.tarif{
+
+	border: 3px green dashed;
+	width: 420px;
+
+}
+.TitreTableauTarif{
+
+	font-weight: bold;
+	text-decoration: underline;
+	color: black;
+}
+p{
+	color: white;
+}
+
+.PremiereCase, .DeuxiemeCase, .TroisiemeCase, .QuatriemeCase  
+{
+	font-weight: bold;
+	color: black;
+	background-color:goldenrod;
+}
+
+
+#horairetableau
+{
+background-color: white;
+color: black;
+}
+
+table{
+
+border-collapse: collapse;
+
+
+}
+
+
+
+.lienversindex
+{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+
+.lienversindex:hover{
+	background-color: #f43c80;
+	}
+	
+	
+
+
+table,tr{
+	width:100%;
+	text-align: center;
+	padding: 50px;
+}
+table tr td{
+	vertical-align:top;
+	text-align:center;
+	border-style : none;
+	padding:10px 3px;
+}
+
+tr:nth-child(1) 
+
+/*TITRE*/
+td{
+
+	text-align:center;
+	font-weight:bold;
+	vertical-align:top;
+	color:black;
+
+	padding: 10px 0px 10px 0px;
+}
+
+.milieu
+{
+	border: 1px solid black;
+}
+/*tr:nth-child(3n+2) */
+
+/*td:last-child{
+	text-align:center;
+}*/
+
+/*tr:nth-child(5){
+	border-top:1px solid black;
+}*/
+

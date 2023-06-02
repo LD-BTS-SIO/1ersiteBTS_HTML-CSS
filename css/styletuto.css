@@ -1,0 +1,119 @@
+body{
+background-color : #b5a789;
+font-family: Georgia; /* police d'écriture */
+color: purple;
+padding-left: 11em;
+}
+
+h1,h3
+{
+	color: blue;
+	text-align: center;
+}
+
+.Activités{
+	border: 3px green dashed;
+	width: 395px;
+}
+
+.Presentation{
+
+	border: 3px green dashed;
+	width: 160px;
+
+}
+
+.Sports{
+	border:  3px green dashed;
+	width: 81px;
+}
+
+p{
+	color: white;
+}
+
+
+.PhraseEnJaune {
+
+color: yellow;
+
+}
+
+
+.PaysageDeMelun
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.PhraseAuMilieu
+{
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+nav a{ /* tous les liens a à l'intérieur de la balise nav */
+float: left; /* effet flottant */
+text-decoration: none; /* pas d'héritage avec effet souligné */
+color: #ffffff; /* couleur du texte */
+background: #000000; /* couleur de fond */
+height: 36px; /* hauteur */
+line-height: 33px; /* interligne */
+padding: 0 10px; /* marges intérieur */
+font-family: sans-serif; /* police d'écriture */
+font-size: 13px; /* taille du texte */
+transition: .5s; /* temps de transition lors du hover : une demi seconde */
+}
+
+nav a:hover{ /* tous liens lors du survol dans la balise nav */
+background: #f43c80; /* couleur de fond */
+first-chil 
+background-color: #336699;
+	}
+
+
+
+ul, footer
+{
+	color: black;
+}
+
+ nav{ /*menu droit et nom au centre, sa taille, la bordure, son fond etc..*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	align-items: center;
+	width: 380px;
+	border: 6px black solid;
+	background-color: pink;
+}
+
+
+.lienCV{
+background-color: white;
+margin-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;	
+}
+
+.lienInformations{
+background-color: white;
+margin-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;	
+}
+
+.lienCV:active{
+background-color: purple;
+	color: white;
+	   }
+
+.lienInformations:active{
+background-color: purple;
+	color: white;
+}	
